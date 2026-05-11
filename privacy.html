@@ -47,7 +47,13 @@
     <h2>Netzwerkzugriff</h2>
     <p>Die App benötigt Netzwerkzugriff, um ihre Kernfunktionen auszuführen (z.B. Ping, DNS-Abfragen, Port-Scans, Whois, HTTP-Header-Abfragen). Alle Abfragen gehen direkt an die vom Benutzer angegebenen Ziele — es gibt keinen zwischengeschalteten Server des Entwicklers.</p>
     <p>Die einzige externe Schnittstelle ist der IP-Geolocation-Dienst (<a href="http://ip-api.com">ip-api.com</a>), der nur bei expliziter Nutzung des „IP Geolocation"-Tools kontaktiert wird.</p>
-
+    <h2>Geräteberechtigungen</h2>
+    <ul>
+        <li><strong>Standort</strong> — Wird nur für die SSID-Anzeige im WiFi-Info-Tool benötigt. Der Standort selbst wird weder gespeichert noch übertragen.</li>
+        <li><strong>Bluetooth</strong> — Wird nur für den Bluetooth-Scanner benötigt, um BLE-Geräte in der Umgebung zu finden.</li>
+        <li><strong>NFC</strong> — Wird nur für den NFC-Reader benötigt, um NFC-Tags auszulesen.</li>
+        <li><strong>Lokales Netzwerk</strong> — Wird für Subnet Scan, ARP und Wake-on-LAN benötigt.</li>
+    </ul>
     <h2>Tracking & Analyse</h2>
     <p>Die App enthält kein Tracking, keine Cookies, keine Analyse-SDKs, keine Werbung und keine Telemetrie.</p>
 
@@ -78,6 +84,14 @@
     <h2>Network access</h2>
     <p>The app requires network access to perform its core functions (e.g. ping, DNS queries, port scans, whois, HTTP header requests). All queries go directly to the user-specified targets — there is no intermediary server operated by the developer.</p>
     <p>The only external API is the IP geolocation service (<a href="http://ip-api.com">ip-api.com</a>), which is only contacted when the user explicitly uses the "IP Geolocation" tool.</p>
+
+    <h2>Device permissions</h2>
+    <ul>
+        <li><strong>Location</strong> — Required only to display the SSID in the WiFi Info tool. Your location is neither stored nor transmitted.</li>
+        <li><strong>Bluetooth</strong> — Required only for the Bluetooth Scanner to discover nearby BLE devices.</li>
+        <li><strong>NFC</strong> — Required only for the NFC Reader to read NFC tags.</li>
+        <li><strong>Local Network</strong> — Required for Subnet Scan, ARP, and Wake-on-LAN.</li>
+    </ul>
 
     <h2>Tracking & Analytics</h2>
     <p>The app contains no tracking, no cookies, no analytics SDKs, no advertising, and no telemetry.</p>

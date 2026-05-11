@@ -54,7 +54,7 @@
     <h2>Häufige Fragen</h2>
 
     <p class="faq-q">Was kann NetScanKit?</p>
-    <p class="faq-a">Die App bietet 17 Netzwerk-Tools direkt auf Ihrem iPhone oder iPad: Ping, Traceroute, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (mit TLS-Zertifikatsanzeige), Port Scan, Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, HTTP Headers und IP Geolocation.</p>
+    <p class="faq-a">Die App bietet 19 Netzwerk-Tools direkt auf Ihrem iPhone oder iPad: Ping, Traceroute, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (mit TLS-Zertifikatsanzeige), Port Scan (80+ Ports), Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, Bluetooth Scanner, NFC Reader, HTTP Headers und IP Geolocation.</p>
 
     <p class="faq-q">Brauche ich ein Konto oder einen Server?</p>
     <p class="faq-a">Nein. Alle Abfragen laufen direkt auf Ihrem Gerät. Es wird kein Account und kein externer Server benötigt.</p>
@@ -70,6 +70,15 @@
 
     <p class="faq-q">Warum fragt die App nach lokalem Netzwerk-Zugriff?</p>
     <p class="faq-a">Für Subnet Scan, ARP und Wake-on-LAN muss die App Geräte in Ihrem lokalen Netzwerk erreichen können. iOS zeigt dafür eine Berechtigungsabfrage.</p>
+
+    <p class="faq-q">Was macht der Bluetooth Scanner?</p>
+    <p class="faq-a">Er scannt ca. 8 Sekunden nach BLE-Geräten (Bluetooth Low Energy) in der Nähe und zeigt Name, Signalstärke (dBm) und UUID an. Klassische Bluetooth-Geräte werden nicht erkannt.</p>
+
+    <p class="faq-q">Was kann der NFC Reader?</p>
+    <p class="faq-a">Er liest NFC-Tags (NDEF-Format) und zeigt alle verfügbaren Informationen: URI, Text, MIME-Type, Tag-Status, Kapazität, Record-Details und Hex-Dump. Halten Sie einfach Ihr iPhone an das NFC-Tag.</p>
+
+    <p class="faq-q">Warum fragt die App nach Standort-Zugriff?</p>
+    <p class="faq-a">Apple erfordert Standort-Berechtigung, um den SSID (WiFi-Name) anzeigen zu können. Der Standort selbst wird nicht gespeichert oder übertragen.</p>
 
     <p class="faq-q">Werden meine Daten gespeichert oder gesendet?</p>
     <p class="faq-a">Nein. Keine Eingaben, Ergebnisse oder Nutzungsdaten werden gespeichert oder an Dritte gesendet. Einzige Ausnahme: Das IP-Geolocation-Tool nutzt den öffentlichen Dienst ip-api.com.</p>
@@ -88,7 +97,7 @@
     <h2>Frequently Asked Questions</h2>
 
     <p class="faq-q">What can NetScanKit do?</p>
-    <p class="faq-a">The app provides 17 network tools right on your iPhone or iPad: Ping, Traceroute, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (with TLS certificate display), Port Scan, Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, HTTP Headers, and IP Geolocation.</p>
+    <p class="faq-a">The app provides 19 network tools right on your iPhone or iPad: Ping, Traceroute, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (with TLS certificate display), Port Scan (80+ ports), Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, Bluetooth Scanner, NFC Reader, HTTP Headers, and IP Geolocation.</p>
 
     <p class="faq-q">Do I need an account or a server?</p>
     <p class="faq-a">No. All queries run directly on your device. No account or external server is required.</p>
@@ -104,6 +113,15 @@
 
     <p class="faq-q">Why does the app ask for local network access?</p>
     <p class="faq-a">For Subnet Scan, ARP, and Wake-on-LAN, the app needs to reach devices on your local network. iOS shows a permission prompt for this.</p>
+
+    <p class="faq-q">What does the Bluetooth Scanner do?</p>
+    <p class="faq-a">It scans for about 8 seconds for nearby BLE (Bluetooth Low Energy) devices and shows their name, signal strength (dBm), and UUID. Classic Bluetooth devices are not detected.</p>
+
+    <p class="faq-q">What can the NFC Reader do?</p>
+    <p class="faq-a">It reads NFC tags (NDEF format) and displays all available information: URI, text, MIME type, tag status, capacity, record details, and hex dump. Simply hold your iPhone near the NFC tag.</p>
+
+    <p class="faq-q">Why does the app ask for location access?</p>
+    <p class="faq-a">Apple requires location permission to display the SSID (WiFi name). Your location is not stored or transmitted.</p>
 
     <p class="faq-q">Is any of my data stored or sent?</p>
     <p class="faq-a">No. No inputs, results, or usage data are stored or sent to third parties. The only exception: The IP Geolocation tool uses the public service ip-api.com.</p>
