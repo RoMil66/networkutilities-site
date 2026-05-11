@@ -54,7 +54,7 @@
     <h2>Häufige Fragen</h2>
 
     <p class="faq-q">Was kann NetScanKit?</p>
-    <p class="faq-a">Die App bietet 20 Netzwerk-Tools direkt auf Ihrem iPhone oder iPad: Ping, Traceroute, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (mit TLS-Zertifikatsanzeige), Port Scan (80+ Ports), Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, Bluetooth Scanner, NFC Reader, HTTP Headers, SSL Certificate und IP Geolocation.</p>
+    <p class="faq-a">Die App bietet 19 Netzwerk-Tools direkt auf Ihrem iPhone oder iPad: Reachability Test, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (mit TLS-Zertifikatsanzeige), Port Scan (80+ Ports), Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, Bluetooth Scanner, NFC Reader, HTTP Headers, SSL Certificate und IP Geolocation.</p>
 
     <p class="faq-q">Brauche ich ein Konto oder einen Server?</p>
     <p class="faq-a">Nein. Alle Abfragen laufen direkt auf Ihrem Gerät. Es wird kein Account und kein externer Server benötigt.</p>
@@ -62,8 +62,8 @@
     <p class="faq-q">Was bedeutet „Port geschlossen"?</p>
     <p class="faq-a">Das bedeutet, dass der Ziel-Host auf diesem Port nicht antwortet. Entweder läuft dort kein Dienst, eine Firewall blockiert den Zugriff, oder der Host ist nicht erreichbar.</p>
 
-    <p class="faq-q">Warum zeigt Ping Millisekunden statt ICMP?</p>
-    <p class="faq-a">iOS erlaubt kein ICMP (klassisches Ping). Die App nutzt stattdessen TCP-Probes auf mehrere bekannte Ports (80, 443, 22, etc.) und misst die Antwortzeit. Das Ergebnis ist vergleichbar.</p>
+    <p class="faq-q">Warum zeigt der Erreichbarkeitstest Millisekunden statt ICMP?</p>
+    <p class="faq-a">iOS erlaubt kein ICMP (klassisches Ping). Die App nutzt stattdessen TCP-Probes auf bekannte Ports (80, 443, 22, etc.) und misst die Antwortzeit. Das Ergebnis ist vergleichbar.</p>
 
     <p class="faq-q">Was bedeutet der TLS-Zertifikat-Check beim Port Test?</p>
     <p class="faq-a">Bei TLS-Ports (443, 993, etc.) baut die App eine verschlüsselte Verbindung auf und zeigt das Server-Zertifikat: Name, Aussteller, Gültigkeit, SANs, TLS-Version und Cipher Suite.</p>
@@ -97,7 +97,7 @@
     <h2>Frequently Asked Questions</h2>
 
     <p class="faq-q">What can NetScanKit do?</p>
-    <p class="faq-a">The app provides 20 network tools right on your iPhone or iPad: Ping, Traceroute, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (with TLS certificate display), Port Scan (80+ ports), Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, Bluetooth Scanner, NFC Reader, HTTP Headers, SSL Certificate, and IP Geolocation.</p>
+    <p class="faq-a">The app provides 19 network tools right on your iPhone or iPad: Reachability Test, NSLookup, Reverse Lookup, DNS Records, Whois, Port Test (with TLS certificate display), Port Scan (80+ ports), Subnet Scan, Wake-on-LAN, Ifconfig, Netstat, ARP, Hostname, WiFi Info, Bluetooth Scanner, NFC Reader, HTTP Headers, SSL Certificate, and IP Geolocation.</p>
 
     <p class="faq-q">Do I need an account or a server?</p>
     <p class="faq-a">No. All queries run directly on your device. No account or external server is required.</p>
@@ -105,8 +105,8 @@
     <p class="faq-q">What does "port closed" mean?</p>
     <p class="faq-a">It means the target host did not respond on that port. Either no service is running there, a firewall is blocking access, or the host is unreachable.</p>
 
-    <p class="faq-q">Why does Ping show milliseconds instead of ICMP?</p>
-    <p class="faq-a">iOS does not allow ICMP (classic ping). The app uses TCP probes to multiple well-known ports (80, 443, 22, etc.) and measures response time. The result is comparable.</p>
+    <p class="faq-q">Why does the Reachability Test show milliseconds instead of ICMP?</p>
+    <p class="faq-a">iOS does not allow ICMP (classic ping). The app uses TCP probes to well-known ports (80, 443, 22, etc.) and measures response time. The result is comparable.</p>
 
     <p class="faq-q">What does the TLS certificate check do in Port Test?</p>
     <p class="faq-a">For TLS ports (443, 993, etc.), the app establishes an encrypted connection and displays the server certificate: name, issuer, validity, SANs, TLS version, and cipher suite.</p>
